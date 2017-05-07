@@ -8,9 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.example.android.fragments.data.Flower;
-
 import java.util.List;
 
 /**
@@ -43,7 +41,5 @@ public class FlowerArrayAdapter extends ArrayAdapter<Flower> {
 
         return view;
     }
-
-
 
 }
