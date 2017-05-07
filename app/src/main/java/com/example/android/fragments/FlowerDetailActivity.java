@@ -1,16 +1,15 @@
 package com.example.android.fragments;
-
-/**
- * Created by jamieywong on 4/6/15.
- */
 import android.app.ActionBar;
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.MenuItem;
 
-// This activity is only used in single pane mode.
-//Support ActionBar capability for older versions, use ...support.v7.. library
+/**Created by jamieywong on 4/6/15.
+  This activity is only used in single pane mode.
+  Support ActionBar capability for older versions, use ...support.v7.. library
+*/
+
 public class FlowerDetailActivity extends ActionBarActivity {
 
     @Override
@@ -23,7 +22,7 @@ public class FlowerDetailActivity extends ActionBarActivity {
         getSupportActionBar().setIcon(R.mipmap.ic_launcher);
 
         if (savedInstanceState == null) {
-//          Create the fragment, set its args, add it to the detail container
+        //Create the fragment, set its args, add it to the detail container
             FlowerDetailFragment fragment = new FlowerDetailFragment();
 
             Bundle b = getIntent().getBundleExtra(MainActivity.Flower_Bundle);
